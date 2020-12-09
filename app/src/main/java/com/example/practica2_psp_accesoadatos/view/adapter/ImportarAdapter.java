@@ -1,6 +1,5 @@
-package com.example.practica2_psp_accesoadatos.view;
+package com.example.practica2_psp_accesoadatos.view.adapter;
 
-import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;

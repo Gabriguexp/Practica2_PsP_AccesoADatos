@@ -15,7 +15,6 @@ import androidx.recyclerview.widget.DividerItemDecoration;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
-import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.Menu;
 import android.view.MenuInflater;
@@ -26,7 +25,7 @@ import android.view.ViewGroup;
 import com.example.practica2_psp_accesoadatos.MainActivity;
 import com.example.practica2_psp_accesoadatos.R;
 import com.example.practica2_psp_accesoadatos.model.pojo.Amigos;
-import com.example.practica2_psp_accesoadatos.model.pojo.Llamadas;
+import com.example.practica2_psp_accesoadatos.view.adapter.AmigosViewAdapter;
 import com.example.practica2_psp_accesoadatos.viewmodel.ViewModel;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 

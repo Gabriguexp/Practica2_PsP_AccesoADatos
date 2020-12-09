@@ -22,6 +22,7 @@ import android.widget.Button;
 
 import com.example.practica2_psp_accesoadatos.R;
 import com.example.practica2_psp_accesoadatos.model.pojo.Amigos;
+import com.example.practica2_psp_accesoadatos.view.adapter.ImportarAdapter;
 import com.example.practica2_psp_accesoadatos.viewmodel.ViewModel;
 
 import java.util.ArrayList;

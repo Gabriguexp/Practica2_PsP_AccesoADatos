@@ -8,6 +8,7 @@ import com.example.practica2_psp_accesoadatos.model.dao.AmigosDao;
 import com.example.practica2_psp_accesoadatos.model.dao.LlamadasDao;
 import com.example.practica2_psp_accesoadatos.model.pojo.Amigos;
 import com.example.practica2_psp_accesoadatos.model.pojo.Llamadas;
+import com.example.practica2_psp_accesoadatos.model.room.Db;
 
 import java.util.List;
 import java.util.concurrent.Callable;

@@ -1,4 +1,4 @@
-package com.example.practica2_psp_accesoadatos.model;
+package com.example.practica2_psp_accesoadatos.model.room;
 
 
 import android.content.Context;
@@ -20,7 +20,7 @@ public abstract class Db extends RoomDatabase {
 
     private volatile static Db INSTANCE;
 
-    static synchronized Db getDb(final Context context){
+    public static synchronized Db getDb(final Context context){
         if(INSTANCE == null){
             INSTANCE = Room.databaseBuilder(context.getApplicationContext(), Db.class, "dbamigos").build();
         }

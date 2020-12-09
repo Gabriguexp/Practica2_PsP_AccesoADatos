@@ -1,4 +1,4 @@
-package com.example.practica2_psp_accesoadatos.view;
+package com.example.practica2_psp_accesoadatos.view.adapter;
 
 import android.content.Context;
 import android.content.Intent;
@@ -10,7 +10,6 @@ import android.widget.TextView;
 
 import androidx.annotation.NonNull;
 import androidx.constraintlayout.widget.ConstraintLayout;
-import androidx.lifecycle.ViewModelProvider;
 import androidx.recyclerview.widget.DiffUtil;
 import androidx.recyclerview.widget.ListAdapter;
 import androidx.recyclerview.widget.RecyclerView;
@@ -18,10 +17,8 @@ import androidx.recyclerview.widget.RecyclerView;
 import com.example.practica2_psp_accesoadatos.R;
 import com.example.practica2_psp_accesoadatos.model.Repository;
 import com.example.practica2_psp_accesoadatos.model.pojo.Amigos;
-import com.example.practica2_psp_accesoadatos.model.pojo.Llamadas;
-import com.example.practica2_psp_accesoadatos.viewmodel.ViewModel;
+import com.example.practica2_psp_accesoadatos.view.AmigoActivity;
 
-import java.util.List;
 import java.util.concurrent.ExecutionException;
 
 public class AmigosViewAdapter extends ListAdapter<Amigos, AmigosViewAdapter.AmigosViewHolder> {
