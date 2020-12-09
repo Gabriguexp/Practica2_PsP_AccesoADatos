@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Practica2_PsP_AccesoADatos</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="importarmn">Importar</string>
+    <string name="importar">importar</string>
+    <string name="volver">volver</string>
+    <string name="editar">Editar</string>
+    <string name="borrar">Borrar</string>
+    <string name="guardar">guardar</string>
+    <string name="cancelar">cancelar</string>
+    <string name="todo">TODO</string>
+    <string name="fecha">fecha</string>
+    <string name="nombre">Nombre *</string>
+    <string name="telefono">Telefono *</string>
+    <string name="fecha_de_nacimiento">Fecha de Nacimiento</string>
+    <string name="btañadir">Añadir Amigo</string>
+    
+</resources>

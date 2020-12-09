@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/listaFragment">
+    <fragment
+        android:id="@+id/listaFragment"
+        android:name="com.example.practica2_psp_accesoadatos.view.ListaFragment"
+        android:label="fragment_lista"
+        tools:layout="@layout/fragment_lista" >
+        <action
+            android:id="@+id/action_listaFragment_to_addFragment"
+            app:destination="@id/addFragment" />
+        <action
+            android:id="@+id/action_listaFragment_to_importarFragment"
+            app:destination="@id/importarFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/addFragment"
+        android:name="com.example.practica2_psp_accesoadatos.view.AddFragment"
+        android:label="fragment_add"
+        tools:layout="@layout/fragment_add" >
+        <action
+            android:id="@+id/action_addFragment_to_listaFragment"
+            app:destination="@id/listaFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/importarFragment"
+        android:name="com.example.practica2_psp_accesoadatos.view.ImportarFragment"
+        android:label="fragment_importar"
+        tools:layout="@layout/fragment_importar" >
+        <action
+            android:id="@+id/action_importarFragment_to_listaFragment"
+            app:destination="@id/listaFragment" />
+    </fragment>
+</navigation>
